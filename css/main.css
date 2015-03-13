@@ -51,6 +51,23 @@ header h2 {
   text-shadow: #222222 1px 3px 2px;
 }
 
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+h3 {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0em;
+  font-size: 1.75em;
+  font-style: italic;
+  text-shadow: #222222 1px 3px 2px;
+}
+
 nav a {
   display: block;
   border-top: 1px solid black;
@@ -130,10 +147,74 @@ nav ol {
   width: 100%;
 }
 
-.footer {
-  background-color: #e4c22a;
+footer {
+  background-color: #222222;
+  color: #fff;
+  clear: left;
+  text-align: center;
+  padding: 2em;
+  font-size: 0.75em;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #fff;
 }
 
 .banner img {
   width: 100%;
+}
+ p {
+   margin: 1em;
+   font-size: 0.75em;
+ }
+
+.d-symbol {
+  float: left;
+  width: 50%;
+}
+
+.d-regular {
+  float: right;
+  width: 50%;
+}
+
+.g-symbol {
+  float: right;
+  width: 50%;
+}
+
+.g-regular {
+  float: left;
+  width: 50%;
+}
+
+.r-symbol {
+  float: left;
+  width: 50%;
+}
+
+.r-regular {
+  float: right;
+  width: 50%;
+}
+
+.o-symbol {
+  float: right;
+  width: 50%;
+}
+
+.o-regular {
+  float: left;
+  width: 50%;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.75em;
+  padding: 2em 0em 1em 0em;
+}
+
+.banner {
+  position: relative;
 }
