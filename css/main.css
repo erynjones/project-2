@@ -36,6 +36,7 @@ header h1 {
   left: 0em;
   font-weight: bold;
   font-size: 2.25em;
+  text-shadow: #222222 1px 3px 2px;
 }
 
 header h2 {
@@ -47,6 +48,49 @@ header h2 {
   bottom: 54.2em;
   left: 0em;
   font-size: 9pt;
+  text-shadow: #222222 1px 3px 2px;
+}
+
+nav a {
+  display: block;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+nav ol {
+  padding: 0;
+  width: 100%;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-dragon {
+  float: left;
+  width: 50%;
+
+}
+
+.nav-goat {
+  float: right;
+  width: 50%;
+}
+
+.nav-rooster {
+  float: left;
+  width: 50%;
+  clear: left;
+
+}
+
+.nav-ox {
+  float: right;
+  width: 50%;
+  clear: right;
+
 }
 
 .nav {
@@ -58,24 +102,38 @@ header h2 {
 
 .dragon {
   background-color: #e4c22a;
+  clear: left;
+  float: left;
+  width: 100%;
 }
 
 .goat {
   background-color: #222222;
+  color: #fff;
+  clear: left;
+  float: left;
+  width: 100%;
 }
 
 .rooster {
   background-color: #bc0017;
+  color: #fff;
+  clear: left;
+  float: left;
+  width: 100%;
 }
 
 .ox {
   background-color: #e4c22a;
+  clear: left;
+  float: left;
+  width: 100%;
 }
 
 .footer {
   background-color: #e4c22a;
 }
 
-img {
-  width: 50%;
+.banner img {
+  width: 100%;
 }
